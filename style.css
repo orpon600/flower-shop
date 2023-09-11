@@ -1,0 +1,337 @@
+/* common shared styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  overflow: hidden;
+  padding-inline: 20px;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #e55473;
+  border: 0;
+  color: #fbf7f7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+/*  Header section styles  */
+.nav-section {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+ul > li > a {
+  color: #272727;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-section ul {
+  display: flex;
+  margin-top: 30px;
+}
+
+.nav-section li {
+  list-style: none;
+  margin-right: 45px;
+  color: #e85076;
+  font-size: 20px;
+  font-weight: 100px;
+}
+.logo-body {
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.flower-logo {
+  color: #e85076;
+}
+
+/* banner  styles*/
+.banner {
+  height: 80vh;
+  background-color: rgba(229, 84, 115, 0.1);
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  left: 130px;
+  position: absolute;
+}
+
+.Flower {
+  position: absolute;
+  bottom: 43px;
+  right: 150px;
+  width: 400px;
+}
+
+.banner-title {
+  display: flex;
+  width: 650px;
+  flex-direction: column;
+  color: #272727;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 19px;
+  margin: 20px 0px;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #e55473;
+  border: 0;
+  color: #fbf7f7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+/* Our Featured Flowers styles  */
+/* insta content section styles */
+.services-name {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.services-description {
+  margin: 25px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+
+.instagram-content {
+  margin-top: 70px;
+  display: flex;
+  gap: 54px;
+  justify-content: center;
+}
+
+.instagram-content img {
+  width: 242px;
+}
+
+/*our featured flowers styles*/
+.back-top-rond {
+  align-items: center;
+  width: 370px;
+  height: 390px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.its-description {
+  font-size: 15px;
+  margin: 25px 0px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+.back-top-rond-2 {
+  align-items: center;
+  width: 370px;
+  height: 390px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(5, 151, 160, 0.15);
+}
+
+.back-top-rond-3 {
+  align-items: center;
+  width: 370px;
+  height: 390px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.back-top-rond img {
+  width: 210px;
+}
+
+.rose-pink {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.all-flr-rose {
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.ylo-rose {
+  margin-left: 50px;
+  margin-top: 40px;
+  height: 350px;
+}
+
+.tree-name {
+  display: flex;
+  justify-content: space-around;
+  color: #272727;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+  gap: 60px;
+  text-decoration-line: underline;
+}
+
+/* Same Day Deliverym section styles */
+.delivery {
+  width: 1140px;
+  height: 200px;
+  margin-left: 190px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-text {
+  margin-top: 10px;
+}
+/* insta banner section styles  */
+
+.banner-title2 {
+  width: 650px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: start;
+}
+
+.banner-description2 {
+  text-align: center;
+  margin: 15px 0px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.banner-cover2 {
+  background-color: rgba(229, 84, 115, 0.1);
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px;
+}
+
+.banner-cover2 img {
+  width: 200px;
+}
+
+.frist-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Sign-up {
+  border-radius: 5px;
+  background: #e55473;
+  border: 0;
+  color: #fbf7f7;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+
+/* Subscribe section styles  */
+.sub-cover-img {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  height: 45vh;
+  width: 160vh;
+  background-size: cover;
+  background-image: url("/images/flower-cv.png");
+}
+
+.sub-pera {
+  margin: 10px 0px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sub-email {
+  margin: 25px 0px;
+  border: none;
+  padding: 12px 140px;
+  border-radius: 6px;
+}
+
+.text {
+  text-align: center;
+  flex-direction: column;
+}
+
+.input-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sub-btn {
+  font-size: 18px;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 8px;
+  background-color: #d34866;
+}
+
+/* footer section styles  */
+.footer-content {
+  margin-top: 85px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 50vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.foot-pera {
+  margin: 15px 0px;
+}
